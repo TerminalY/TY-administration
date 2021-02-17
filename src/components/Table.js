@@ -68,32 +68,6 @@ import DeleteIcon from '@material-ui/icons/Delete';
 import TextField from '@material-ui/core/TextField';
 import CheckIcon from '@material-ui/icons/Check';
 
-
-
-
-// const columns = [
-//   { field: 'id', headerName: 'ID', width: 70 },
-//   { field: 'name', headerName: 'Name', width: 70 },
-//   { field: 'type', headerName: 'Type', width: 130 },
-//   { field: 'price', headerName: 'Price', type:'number', width: 130 },
-//   { field: 'company', headerName: 'Company', width: 130 },
-//   { field: 'img', headerName: 'Image', width: 130 },
-//   { field: 'gender', headerName: 'Gender', width: 130 },
-//   { field: 'properties', headerName: 'Properties', width: 130 },
-//];
-
-// const rows = [
-//   { id: 1, lastName: 'Snow', firstName: 'Jon', age: 35 },
-//   { id: 2, lastName: 'Lannister', firstName: 'Cersei', age: 42 },
-//   { id: 3, lastName: 'Lannister', firstName: 'Jaime', age: 45 },
-//   { id: 4, lastName: 'Stark', firstName: 'Arya', age: 16 },
-//   { id: 5, lastName: 'Targaryen', firstName: 'Daenerys', age: null },
-//   { id: 6, lastName: 'Melisandre', firstName: null, age: 150 },
-//   { id: 7, lastName: 'Clifford', firstName: 'Ferrara', age: 44 },
-//   { id: 8, lastName: 'Frances', firstName: 'Rossini', age: 36 },
-//   { id: 9, lastName: 'Roxie', firstName: 'Harvey', age: 65 },
-// ];
-
 export default function DataTable() {
   const useStyles = makeStyles({
     table: {
@@ -271,7 +245,7 @@ const updateStock =(row, e) => {
             <TableCell align="right">{row.gender}</TableCell>
             <TableCell align="right">
             <svg height="37" width="30">                 
-              <circle cx="15" cy="25" r="10" stroke="grey" stroke-width="1" fill={row.color} />
+              <circle cx="15" cy="25" r="10" stroke="grey" strokeWidth="1" fill={row.color} />
              </svg>
             </TableCell>
             <TableCell align="right">{row.size}</TableCell>
