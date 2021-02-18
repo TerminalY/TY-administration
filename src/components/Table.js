@@ -1,56 +1,3 @@
-// import { faEdit, faPlus, faTrash } from '@fortawesome/free-solid-svg-icons';
-// import React from 'react';
-// import { Table } from 'reactstrap';
-// import Actions from './Actions';
-
-// const TableInventory = (props) => {
-//   return (
-//     <Table>
-//       <thead>
-//         <tr>
-//           <th>#</th>
-//           <th>Name</th>
-//           <th>Count</th>
-//           <th>Actions</th>
-//         </tr>
-//       </thead>
-//       <tbody>
-//         <tr>
-//           <th scope="row">1</th>
-//           <td>Mark</td>
-//           <td>Otto</td>
-//           <td>
-//               <Actions color='success' icon={faPlus} iconColor='white'/>
-//               <Actions color='warning' icon={faEdit} iconColor='white'/>
-//               <Actions color='danger' icon={faTrash} iconColor='white'/>
-//           </td>
-//         </tr>
-//         <tr>
-//           <th scope="row">2</th>
-//           <td>Jacob</td>
-//           <td>Thornton</td>
-//           <td>
-//               <Actions color='success' icon={faPlus} iconColor='white'/>
-//               <Actions color='warning' icon={faEdit} iconColor='white'/>
-//               <Actions color='danger' icon={faTrash} iconColor='white'/>
-//           </td>
-//         </tr>
-//         <tr>
-//           <th scope="row">3</th>
-//           <td>Larry</td>
-//           <td>the Bird</td>
-//           <td>
-//               <Actions color='success' icon={faPlus} iconColor='white'/>
-//               <Actions color='warning' icon={faEdit} iconColor='white'/>
-//               <Actions color='danger' icon={faTrash} iconColor='white'/>
-//           </td>
-//         </tr>
-//       </tbody>
-//     </Table>
-//   );
-// }
-
-// export default TableInventory;
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Table from '@material-ui/core/Table';
@@ -63,10 +10,8 @@ import Paper from '@material-ui/core/Paper';
 import TableFooter from '@material-ui/core/TableFooter';
 import TablePagination from '@material-ui/core/TablePagination';
 import { useState, useEffect } from 'react';
-import _ from 'lodash';
 import DeleteIcon from '@material-ui/icons/Delete';
 import TextField from '@material-ui/core/TextField';
-import CheckIcon from '@material-ui/icons/Check';
 
 export default function DataTable() {
   const useStyles = makeStyles({

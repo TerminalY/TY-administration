@@ -12,6 +12,7 @@ const Navbar = () => {
                 <div className="nav nav-tabs">
                     <NavLink className="nav-item nav-link" exact to="/">Home</NavLink>
                     <NavLink className="nav-item nav-link" to="/inventory">Inventory</NavLink>
+                    <NavLink className="nav-item nav-link" to="/users">Users</NavLink>
                     <NavLink className="nav-item nav-link" to="/orders">Orders</NavLink>
                 </div>
             </div>
