@@ -18,11 +18,11 @@ const Users = () => {
       });
       const [page, setPage] = React.useState(0);
       const [rowsPerPage, setRowsPerPage] = React.useState(5);
-      const [error, setError] = useState(null);
-      const [isLoaded, setIsLoaded] = useState(false);
-      const [open, setOpen] = React.useState(false);
+      const [setError] = useState(null);
+      const [setIsLoaded] = useState(false);
+      //const [open, setOpen] = React.useState(false);
       const [deletes, setdeletes] = React.useState(false);
-      const [count, setcount] = React.useState(0);
+      const [setcount] = React.useState(0);
       const [name, setname] = React.useState('');
       
     
