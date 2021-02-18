@@ -25,7 +25,7 @@ const Orders = () => {
 }, [])
     return (
         <div className="container">
-            <h2>Financial gains</h2>
+            <h2>Financial Gains</h2>
            <BarChart data={data} />
         </div>
     )
